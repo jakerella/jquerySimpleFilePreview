@@ -1,0 +1,95 @@
+
+.simpleFilePreview_multiUI {
+  border: 2px solid #fff;
+  border-radius:4px;
+  background-color:#f2f2f2;
+  box-shadow:0 0 0 1px #c1c1c1;
+  width: 450px;
+  position: relative;
+  padding: 15px 30px;
+  margin-left: 75px;
+}
+.simpleFilePreview_multiClip {
+  overflow: hidden;
+}
+.simpleFilePreview_multi {
+  display: block;
+  height: 130px;
+  padding: 0;
+  position: relative;
+  left: 0;
+}
+
+.simpleFilePreview_shifter {
+  position: absolute;
+  top: 70px;
+  cursor: pointer;
+}
+.simpleFilePreview_shiftLeft { left: 3px; }
+.simpleFilePreview_shiftRight { right: 3px; }
+
+.imageHolder{ margin: 10px 15px; }
+.simpleFilePreview {
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-left: 10px;
+  border: 4px solid #fff;
+  border-radius:3px;
+  background-color: #f7f7f7;
+  padding: 3px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow:0 0 4px 0 #555;
+}
+.simpleFilePreview_multi .simpleFilePreview { float: left; }
+.simpleFilePreview_input {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding-top: 40%;
+  height: 100%;
+  width: 100%;
+}
+.simpleFilePreview:hover {
+  background-color: #ddd;
+}
+.simpleFilePreview input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+  z-index: 5;
+}
+
+.simpleFilePreview_preview {
+  max-width: 120px;
+  max-height: 120px;
+  z-index: 3;
+}
+.simpleFilePreview_preview.simpleFilePreview_hasFilename {
+  max-width: 120px;
+  max-height: 100px;
+}
+.simpleFilePreview_filename {
+  font-size: 0.8em;
+  color: #666;
+  width: 95%;
+  height: 1.15em;
+  overflow: hidden;
+  display: inline-block;
+}
+.simpleFilePreview_remove {
+  display: none;
+  color: #c33;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
+}
