@@ -70,7 +70,7 @@ _Multiple Files_
 $('input[type=file]').simpleFilePreview();
 ```
 
-You can see [more examples](http://jordankasper.com/jquery/preview) on my personal site.
+You can see [more examples](http://jordankasper.com/jquery/preview/examples) on my personal site.
 
 ### Tested Browsers</h3>
 
