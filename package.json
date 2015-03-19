@@ -1,6 +1,7 @@
 {
-  "name": "jquerySimpleFilePreview",
+  "name": "jquery-simple-file-preview",
   "version": "0.1.0",
+  "description": "Simple file preview UI",
   "main": "jquery.simpleFilePreview.js",
   "repository": {
     "type": "git",
